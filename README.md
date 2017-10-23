@@ -18,22 +18,22 @@ Time spent: **4** hours spent in total
 2. (Required)WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2.2
+    - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_2.gif?raw=true" alt="Girl in a jacket">
   - [ ] Steps to recreate: Create a new post. Select the insert plain text option and insert the following code:  " <a href="</a><a title=" onmouseover=alert('test')  ">link</a> ""
 Once you publish the page, it will show popups when you're on the page and try clicking the link for the post.
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-includes/shortcodes.php)
-3. (Required) Vulnerability Name or ID
+3. (Required) WordPress <= 4.2.2 - Widgets Title Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Go to any page and click customize.  Select the widgets option and press add widget.  Go to the text widget and name your widget whatever and then enter the following code: <img src="https://google.com" onerror="alert('Widget Exploit!");">
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/customize.php)
 
 
 ## Assets
