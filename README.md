@@ -7,7 +7,7 @@ Time spent: **4** hours spent in total
 ## Pentesting Report
 
 1. (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: Causes popup based on injection
+  - [ ] Summary: Causes popup when you comment the code below
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2.1
