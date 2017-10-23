@@ -11,7 +11,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_1.gif?raw=true" alt="Girl in a jacket">
   - [ ] Steps to recreate: In a page with a post that has comments, insert the following text: <script>while(1){alert(document.cookie);}</script>.  The page will either refresh by itself or next time you refresh it, it will give you the pop up
   - [ ] Affected source code:
     - [Link 1](https://compsecurityconcepts.wordpress.com/tag/cross-site-scripting/)
