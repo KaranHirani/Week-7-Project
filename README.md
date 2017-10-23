@@ -15,16 +15,16 @@ Time spent: **4** hours spent in total
   - [ ] Steps to recreate: In a page with a post that has comments, insert the following text: <script>while(1){alert(document.cookie);}</script>.  The page will either refresh by itself or next time you refresh it, it will give you the pop up
   - [ ] Affected source code:
     - [Link 1](https://compsecurityconcepts.wordpress.com/tag/cross-site-scripting/)
-1. (Required) Vulnerability Name or ID
+2. (Required)WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types: 4.2.2
+    - Tested in version: 4.2.3
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_2.gif?raw=true" alt="Girl in a jacket">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -48,7 +48,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Had issues setting up wordpress
 
 ## License
 
