@@ -20,7 +20,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_2.gif?raw=true" alt="Girl in a jacket">
+  - [ ] GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_2.gif?raw=true" alt="Girl in a jacket">
   - [ ] Steps to recreate: Create a new post. Select the insert plain text option and insert the following code:  " <a href="</a><a title=" onmouseover=alert('test')  ">link</a> ""
 Once you publish the page, it will show popups when you're on the page and try clicking the link for the post.
   - [ ] Affected source code:
@@ -30,7 +30,7 @@ Once you publish the page, it will show popups when you're on the page and try c
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_3.gif?
   - [ ] Steps to recreate: Go to any page and click customize.  Select the widgets option and press add widget.  Go to the text widget and name your widget whatever and then enter the following code: <img src="https://google.com" onerror="alert('Widget Exploit!");">
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/customize.php)
