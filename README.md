@@ -7,7 +7,7 @@ Time spent: **4** hours spent in total
 ## Pentesting Report
 
 1. (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [ ] Summary: Causes popup based on injection
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2.1
@@ -17,7 +17,7 @@ Time spent: **4** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://compsecurityconcepts.wordpress.com/tag/cross-site-scripting/)
 2. (Required)WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [ ] Summary: Makes link cause popups when user hovers the mouse over
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
@@ -28,7 +28,7 @@ Once you publish the page, it will show popups when you're on the page and try c
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-includes/shortcodes.php)
 3. (Required) WordPress <= 4.2.2 - Widgets Title Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [ ] Summary: When admin tries to make text widget, code causes popups on update
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
