@@ -17,9 +17,9 @@ Time spent: **4** hours spent in total
     - [Link 1](https://compsecurityconcepts.wordpress.com/tag/cross-site-scripting/)
 2. (Required)WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: 4.2.2
-    - Tested in version: 4.2.3
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: GIF Walkthrough: <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_2.gif?raw=true" alt="Girl in a jacket">
   - [ ] Steps to recreate: Create a new post. Select the insert plain text option and insert the following code:  " <a href="</a><a title=" onmouseover=alert('test')  ">link</a> ""
 Once you publish the page, it will show popups when you're on the page and try clicking the link for the post.
